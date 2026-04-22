@@ -756,14 +756,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.gallery-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, var(--bg-secondary) 0%, transparent 30%, transparent 70%, var(--bg-secondary) 100%);
-    pointer-events: none;
-}
-
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
